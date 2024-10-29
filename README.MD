@@ -44,3 +44,7 @@ This package is dual licensed licensed under the AGPLv3 license. See the [LICENS
 
 ## Additional Resources
 You can find more additional resources such as documentation on the new [Haveno website](https://haveno.com/) for anything related to the new apps.
+
+
+## Future Plans
+Let's wait for the Tor project to finish up a little more on Arti, and we'll intergrate Tor directly into the app itself, no longer requiring a VPN realy to connect.
