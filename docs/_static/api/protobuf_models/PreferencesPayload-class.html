@@ -1,0 +1,3087 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the PreferencesPayload class from the protobuf_models library, for the Dart programming language.">
+  <title>PreferencesPayload class - protobuf_models library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../" data-using-base-href="false" class="light-theme">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">haveno</a></li>
+    <li><a href="../protobuf_models/protobuf_models-library.html">profobuf_models.dart</a></li>
+    <li class="self-crumb">PreferencesPayload class</li>
+  </ol>
+  <div class="self-name">PreferencesPayload</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <div class="toggle" id="theme-button" title="Toggle brightness">
+    <label for="theme">
+      <input type="checkbox" id="theme" value="light-theme">
+      <span id="dark-theme-button" class="material-symbols-outlined">
+        dark_mode
+      </span>
+      <span id="light-theme-button" class="material-symbols-outlined">
+        light_mode
+      </span>
+    </label>
+  </div>
+</header>
+<main>
+
+<div
+    id="dartdoc-main-content"
+    class="main-content"
+    data-above-sidebar="protobuf_models&#47;protobuf_models-library-sidebar.html"
+    data-below-sidebar="protobuf_models&#47;PreferencesPayload-class-sidebar.html">
+    <div>
+<h1><span class="kind-class">PreferencesPayload</span> class 
+ 
+</h1></div>
+
+    
+
+
+    <section>
+      <dl class="dl-horizontal">
+        
+  <dt>Inheritance</dt>
+  <dd>
+    <ul class="gt-separated dark clazz-relationships">
+      <li><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></li>
+        <li><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage-class.html">GeneratedMessage</a></li>
+      <li>PreferencesPayload</li>
+    </ul>
+  </dd>
+
+        
+        
+
+
+          <dt>Available Extensions</dt>
+          <dd><ul class="comma-separated clazz-relationships">
+              <li><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessageGenericExtensions.html">GeneratedMessageGenericExtensions</a></li>
+          </ul></dd>
+
+        
+
+
+      </dl>
+    </section>
+
+    
+  <section class="summary offset-anchor" id="constructors">
+    <h2>Constructors</h2>
+
+    <dl class="constructor-summary-list">
+        <dt id="PreferencesPayload" class="callable">
+          <span class="name"><a href="../protobuf_models/PreferencesPayload/PreferencesPayload.html">PreferencesPayload</a></span><span class="signature">(<span class="parameter" id="-param-userLanguage">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">userLanguage</span>, </span><span class="parameter" id="-param-userCountry"><span class="type-annotation"><a href="../protobuf_models/Country-class.html">Country</a>?</span> <span class="parameter-name">userCountry</span>, </span><span class="parameter" id="-param-traditionalCurrencies"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Iterable-class.html">Iterable</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../protobuf_models/TradeCurrency-class.html">TradeCurrency</a></span>&gt;</span>?</span> <span class="parameter-name">traditionalCurrencies</span>, </span><span class="parameter" id="-param-cryptoCurrencies"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Iterable-class.html">Iterable</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../protobuf_models/TradeCurrency-class.html">TradeCurrency</a></span>&gt;</span>?</span> <span class="parameter-name">cryptoCurrencies</span>, </span><span class="parameter" id="-param-blockChainExplorerMainNet"><span class="type-annotation"><a href="../protobuf_models/BlockChainExplorer-class.html">BlockChainExplorer</a>?</span> <span class="parameter-name">blockChainExplorerMainNet</span>, </span><span class="parameter" id="-param-blockChainExplorerTestNet"><span class="type-annotation"><a href="../protobuf_models/BlockChainExplorer-class.html">BlockChainExplorer</a>?</span> <span class="parameter-name">blockChainExplorerTestNet</span>, </span><span class="parameter" id="-param-backupDirectory"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">backupDirectory</span>, </span><span class="parameter" id="-param-autoSelectArbitrators"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">autoSelectArbitrators</span>, </span><span class="parameter" id="-param-dontShowAgainMap"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span>?</span> <span class="parameter-name">dontShowAgainMap</span>, </span><span class="parameter" id="-param-tacAccepted"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">tacAccepted</span>, </span><span class="parameter" id="-param-useTorForXmrOrdinal"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">useTorForXmrOrdinal</span>, </span><span class="parameter" id="-param-showOwnOffersInOfferBook"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">showOwnOffersInOfferBook</span>, </span><span class="parameter" id="-param-preferredTradeCurrency"><span class="type-annotation"><a href="../protobuf_models/TradeCurrency-class.html">TradeCurrency</a>?</span> <span class="parameter-name">preferredTradeCurrency</span>, </span><span class="parameter" id="-param-withdrawalTxFeeInVbytes"><span class="type-annotation"><a href="https://pub.dev/documentation/fixnum/1.1.0/fixnum/Int64-class.html">Int64</a>?</span> <span class="parameter-name">withdrawalTxFeeInVbytes</span>, </span><span class="parameter" id="-param-useCustomWithdrawalTxFee"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">useCustomWithdrawalTxFee</span>, </span><span class="parameter" id="-param-maxPriceDistanceInPercent"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">maxPriceDistanceInPercent</span>, </span><span class="parameter" id="-param-offerBookChartScreenCurrencyCode"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">offerBookChartScreenCurrencyCode</span>, </span><span class="parameter" id="-param-tradeChartsScreenCurrencyCode"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">tradeChartsScreenCurrencyCode</span>, </span><span class="parameter" id="-param-buyScreenCurrencyCode"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">buyScreenCurrencyCode</span>, </span><span class="parameter" id="-param-sellScreenCurrencyCode"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">sellScreenCurrencyCode</span>, </span><span class="parameter" id="-param-tradeStatisticsTickUnitIndex"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">tradeStatisticsTickUnitIndex</span>, </span><span class="parameter" id="-param-resyncSpvRequested"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">resyncSpvRequested</span>, </span><span class="parameter" id="-param-sortMarketCurrenciesNumerically"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">sortMarketCurrenciesNumerically</span>, </span><span class="parameter" id="-param-usePercentageBasedPrice"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">usePercentageBasedPrice</span>, </span><span class="parameter" id="-param-peerTagMap"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>&gt;</span>?</span> <span class="parameter-name">peerTagMap</span>, </span><span class="parameter" id="-param-moneroNodes"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">moneroNodes</span>, </span><span class="parameter" id="-param-ignoreTradersList"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Iterable-class.html">Iterable</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>&gt;</span>?</span> <span class="parameter-name">ignoreTradersList</span>, </span><span class="parameter" id="-param-directoryChooserPath"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">directoryChooserPath</span>, </span><span class="parameter" id="-param-useAnimations"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">useAnimations</span>, </span><span class="parameter" id="-param-selectedPaymentAccountForCreateOffer"><span class="type-annotation"><a href="../protobuf_models/PaymentAccount-class.html">PaymentAccount</a>?</span> <span class="parameter-name">selectedPaymentAccountForCreateOffer</span>, </span><span class="parameter" id="-param-bridgeAddresses"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Iterable-class.html">Iterable</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>&gt;</span>?</span> <span class="parameter-name">bridgeAddresses</span>, </span><span class="parameter" id="-param-bridgeOptionOrdinal"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">bridgeOptionOrdinal</span>, </span><span class="parameter" id="-param-torTransportOrdinal"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">torTransportOrdinal</span>, </span><span class="parameter" id="-param-customBridges"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">customBridges</span>, </span><span class="parameter" id="-param-moneroNodesOptionOrdinal"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">moneroNodesOptionOrdinal</span>, </span><span class="parameter" id="-param-referralId"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">referralId</span>, </span><span class="parameter" id="-param-phoneKeyAndToken"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">phoneKeyAndToken</span>, </span><span class="parameter" id="-param-useSoundForMobileNotifications"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">useSoundForMobileNotifications</span>, </span><span class="parameter" id="-param-useTradeNotifications"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">useTradeNotifications</span>, </span><span class="parameter" id="-param-useMarketNotifications"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">useMarketNotifications</span>, </span><span class="parameter" id="-param-usePriceNotifications"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">usePriceNotifications</span>, </span><span class="parameter" id="-param-useStandbyMode"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">useStandbyMode</span>, </span><span class="parameter" id="-param-rpcUser"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">rpcUser</span>, </span><span class="parameter" id="-param-rpcPw"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">rpcPw</span>, </span><span class="parameter" id="-param-takeOfferSelectedPaymentAccountId"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">takeOfferSelectedPaymentAccountId</span>, </span><span class="parameter" id="-param-buyerSecurityDepositAsPercent"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">buyerSecurityDepositAsPercent</span>, </span><span class="parameter" id="-param-ignoreDustThreshold"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">ignoreDustThreshold</span>, </span><span class="parameter" id="-param-buyerSecurityDepositAsPercentForCrypto"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">buyerSecurityDepositAsPercentForCrypto</span>, </span><span class="parameter" id="-param-blockNotifyPort"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">blockNotifyPort</span>, </span><span class="parameter" id="-param-cssTheme"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">cssTheme</span>, </span><span class="parameter" id="-param-tacAcceptedV120"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">tacAcceptedV120</span>, </span><span class="parameter" id="-param-autoConfirmSettings"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Iterable-class.html">Iterable</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../protobuf_models/AutoConfirmSettings-class.html">AutoConfirmSettings</a></span>&gt;</span>?</span> <span class="parameter-name">autoConfirmSettings</span>, </span><span class="parameter" id="-param-bsqAverageTrimThreshold"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">bsqAverageTrimThreshold</span>, </span><span class="parameter" id="-param-hideNonAccountPaymentMethods"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">hideNonAccountPaymentMethods</span>, </span><span class="parameter" id="-param-showOffersMatchingMyAccounts"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">showOffersMatchingMyAccounts</span>, </span><span class="parameter" id="-param-denyApiTaker"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">denyApiTaker</span>, </span><span class="parameter" id="-param-notifyOnPreRelease"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">notifyOnPreRelease</span>, </span><span class="parameter" id="-param-xmrNodeSettings"><span class="type-annotation"><a href="../protobuf_models/XmrNodeSettings-class.html">XmrNodeSettings</a>?</span> <span class="parameter-name">xmrNodeSettings</span>, </span><span class="parameter" id="-param-clearDataAfterDays"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">clearDataAfterDays</span>, </span><span class="parameter" id="-param-buyScreenCryptoCurrencyCode"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">buyScreenCryptoCurrencyCode</span>, </span><span class="parameter" id="-param-sellScreenCryptoCurrencyCode"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">sellScreenCryptoCurrencyCode</span>, </span><span class="parameter" id="-param-splitOfferOutput"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">splitOfferOutput</span>}</span>)</span>
+        </dt>
+        <dd>
+          
+            <div class="constructor-modifier features">factory</div>
+        </dd>
+        <dt id="PreferencesPayload.fromBuffer" class="callable">
+          <span class="name"><a href="../protobuf_models/PreferencesPayload/PreferencesPayload.fromBuffer.html">PreferencesPayload.fromBuffer</a></span><span class="signature">(<span class="parameter" id="fromBuffer-param-i"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>&gt;</span></span> <span class="parameter-name">i</span>, </span><span class="parameter" id="fromBuffer-param-r">[<span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/ExtensionRegistry-class.html">ExtensionRegistry</a></span> <span class="parameter-name">r</span> = <span class="default-value">$pb.ExtensionRegistry.EMPTY</span>]</span>)</span>
+        </dt>
+        <dd>
+          
+            <div class="constructor-modifier features">factory</div>
+        </dd>
+        <dt id="PreferencesPayload.fromJson" class="callable">
+          <span class="name"><a href="../protobuf_models/PreferencesPayload/PreferencesPayload.fromJson.html">PreferencesPayload.fromJson</a></span><span class="signature">(<span class="parameter" id="fromJson-param-i"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">i</span>, </span><span class="parameter" id="fromJson-param-r">[<span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/ExtensionRegistry-class.html">ExtensionRegistry</a></span> <span class="parameter-name">r</span> = <span class="default-value">$pb.ExtensionRegistry.EMPTY</span>]</span>)</span>
+        </dt>
+        <dd>
+          
+            <div class="constructor-modifier features">factory</div>
+        </dd>
+    </dl>
+  </section>
+    
+  <section
+      class="summary offset-anchor"
+      id="instance-properties">
+    <h2>Properties</h2>
+    <dl class="properties">
+        <dt id="autoConfirmSettings" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/autoConfirmSettings.html">autoConfirmSettings</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../protobuf_models/AutoConfirmSettings-class.html">AutoConfirmSettings</a></span>&gt;</span></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="autoSelectArbitrators" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/autoSelectArbitrators.html">autoSelectArbitrators</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="backupDirectory" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/backupDirectory.html">backupDirectory</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="blockChainExplorerMainNet" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/blockChainExplorerMainNet.html">blockChainExplorerMainNet</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/BlockChainExplorer-class.html">BlockChainExplorer</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="blockChainExplorerTestNet" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/blockChainExplorerTestNet.html">blockChainExplorerTestNet</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/BlockChainExplorer-class.html">BlockChainExplorer</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="blockNotifyPort" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/blockNotifyPort.html">blockNotifyPort</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="bridgeAddresses" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/bridgeAddresses.html">bridgeAddresses</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>&gt;</span></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="bridgeOptionOrdinal" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/bridgeOptionOrdinal.html">bridgeOptionOrdinal</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="bsqAverageTrimThreshold" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/bsqAverageTrimThreshold.html">bsqAverageTrimThreshold</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="buyerSecurityDepositAsPercent" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/buyerSecurityDepositAsPercent.html">buyerSecurityDepositAsPercent</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="buyerSecurityDepositAsPercentForCrypto" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/buyerSecurityDepositAsPercentForCrypto.html">buyerSecurityDepositAsPercentForCrypto</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="buyScreenCryptoCurrencyCode" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/buyScreenCryptoCurrencyCode.html">buyScreenCryptoCurrencyCode</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="buyScreenCurrencyCode" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/buyScreenCurrencyCode.html">buyScreenCurrencyCode</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="clearDataAfterDays" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearDataAfterDays.html">clearDataAfterDays</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="cryptoCurrencies" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/cryptoCurrencies.html">cryptoCurrencies</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../protobuf_models/TradeCurrency-class.html">TradeCurrency</a></span>&gt;</span></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="cssTheme" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/cssTheme.html">cssTheme</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="customBridges" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/customBridges.html">customBridges</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="denyApiTaker" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/denyApiTaker.html">denyApiTaker</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="directoryChooserPath" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/directoryChooserPath.html">directoryChooserPath</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="dontShowAgainMap" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/dontShowAgainMap.html">dontShowAgainMap</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="eventPlugin" class="property inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/eventPlugin.html">eventPlugin</a></span>
+  <span class="signature">&#8594; <a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/EventPlugin-class.html">EventPlugin</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  Subclasses can override this getter to be notified of changes
+to protobuf fields.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="hashCode" class="property inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/hashCode.html">hashCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
+  
+
+</dt>
+<dd class="inherited">
+  Calculates a hash code based on the contents of the protobuf.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="hideNonAccountPaymentMethods" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hideNonAccountPaymentMethods.html">hideNonAccountPaymentMethods</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="ignoreDustThreshold" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/ignoreDustThreshold.html">ignoreDustThreshold</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="ignoreTradersList" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/ignoreTradersList.html">ignoreTradersList</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>&gt;</span></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="info_" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/info_.html">info_</a></span>
+  <span class="signature">&#8594; <a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/BuilderInfo-class.html">BuilderInfo</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">override</span></div>
+
+</dd>
+
+        <dt id="isFrozen" class="property inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/isFrozen.html">isFrozen</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns <code>true</code> if this message is marked read-only. Otherwise <code>false</code>.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="maxPriceDistanceInPercent" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/maxPriceDistanceInPercent.html">maxPriceDistanceInPercent</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="moneroNodes" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/moneroNodes.html">moneroNodes</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="moneroNodesOptionOrdinal" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/moneroNodesOptionOrdinal.html">moneroNodesOptionOrdinal</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="notifyOnPreRelease" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/notifyOnPreRelease.html">notifyOnPreRelease</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="offerBookChartScreenCurrencyCode" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/offerBookChartScreenCurrencyCode.html">offerBookChartScreenCurrencyCode</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="peerTagMap" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/peerTagMap.html">peerTagMap</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>&gt;</span></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="phoneKeyAndToken" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/phoneKeyAndToken.html">phoneKeyAndToken</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="preferredTradeCurrency" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/preferredTradeCurrency.html">preferredTradeCurrency</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/TradeCurrency-class.html">TradeCurrency</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="referralId" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/referralId.html">referralId</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="resyncSpvRequested" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/resyncSpvRequested.html">resyncSpvRequested</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="rpcPw" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/rpcPw.html">rpcPw</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="rpcUser" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/rpcUser.html">rpcUser</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="runtimeType" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Type-class.html">Type</a></span>
+  
+
+</dt>
+<dd class="inherited">
+  A representation of the runtime type of the object.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="selectedPaymentAccountForCreateOffer" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/selectedPaymentAccountForCreateOffer.html">selectedPaymentAccountForCreateOffer</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/PaymentAccount-class.html">PaymentAccount</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="sellScreenCryptoCurrencyCode" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/sellScreenCryptoCurrencyCode.html">sellScreenCryptoCurrencyCode</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="sellScreenCurrencyCode" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/sellScreenCurrencyCode.html">sellScreenCurrencyCode</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="showOffersMatchingMyAccounts" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/showOffersMatchingMyAccounts.html">showOffersMatchingMyAccounts</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="showOwnOffersInOfferBook" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/showOwnOffersInOfferBook.html">showOwnOffersInOfferBook</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="sortMarketCurrenciesNumerically" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/sortMarketCurrenciesNumerically.html">sortMarketCurrenciesNumerically</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="splitOfferOutput" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/splitOfferOutput.html">splitOfferOutput</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="tacAccepted" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/tacAccepted.html">tacAccepted</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="tacAcceptedV120" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/tacAcceptedV120.html">tacAcceptedV120</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="takeOfferSelectedPaymentAccountId" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/takeOfferSelectedPaymentAccountId.html">takeOfferSelectedPaymentAccountId</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="torTransportOrdinal" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/torTransportOrdinal.html">torTransportOrdinal</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="tradeChartsScreenCurrencyCode" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/tradeChartsScreenCurrencyCode.html">tradeChartsScreenCurrencyCode</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="tradeStatisticsTickUnitIndex" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/tradeStatisticsTickUnitIndex.html">tradeStatisticsTickUnitIndex</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="traditionalCurrencies" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/traditionalCurrencies.html">traditionalCurrencies</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../protobuf_models/TradeCurrency-class.html">TradeCurrency</a></span>&gt;</span></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="unknownFields" class="property inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/unknownFields.html">unknownFields</a></span>
+  <span class="signature">&#8594; <a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/UnknownFieldSet-class.html">UnknownFieldSet</a></span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="useAnimations" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/useAnimations.html">useAnimations</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="useCustomWithdrawalTxFee" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/useCustomWithdrawalTxFee.html">useCustomWithdrawalTxFee</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="useMarketNotifications" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/useMarketNotifications.html">useMarketNotifications</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="usePercentageBasedPrice" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/usePercentageBasedPrice.html">usePercentageBasedPrice</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="usePriceNotifications" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/usePriceNotifications.html">usePriceNotifications</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="userCountry" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/userCountry.html">userCountry</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/Country-class.html">Country</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="userLanguage" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/userLanguage.html">userLanguage</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="useSoundForMobileNotifications" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/useSoundForMobileNotifications.html">useSoundForMobileNotifications</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="useStandbyMode" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/useStandbyMode.html">useStandbyMode</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="useTorForXmrOrdinal" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/useTorForXmrOrdinal.html">useTorForXmrOrdinal</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="useTradeNotifications" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/useTradeNotifications.html">useTradeNotifications</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="withdrawalTxFeeInVbytes" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/withdrawalTxFeeInVbytes.html">withdrawalTxFeeInVbytes</a></span>
+  <span class="signature">&#8596; <a href="https://pub.dev/documentation/fixnum/1.1.0/fixnum/Int64-class.html">Int64</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="xmrNodeSettings" class="property">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/xmrNodeSettings.html">xmrNodeSettings</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/XmrNodeSettings-class.html">XmrNodeSettings</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+  <section
+      class="summary offset-anchor"
+      id="instance-methods">
+    <h2>Methods</h2>
+    <dl class="callables">
+        <dt id="addExtension" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/addExtension.html">addExtension</a></span><span class="signature">(<wbr><span class="parameter" id="addExtension-param-extension"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/Extension-class.html">Extension</a></span> <span class="parameter-name">extension</span>, </span><span class="parameter" id="addExtension-param-value"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a>?</span> <span class="parameter-name">value</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Adds an extension field value to a repeated field.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="check" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/check.html">check</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="clear" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/clear.html">clear</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Clears all data that was set in this message.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="clearAutoSelectArbitrators" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearAutoSelectArbitrators.html">clearAutoSelectArbitrators</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearBackupDirectory" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearBackupDirectory.html">clearBackupDirectory</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearBlockChainExplorerMainNet" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearBlockChainExplorerMainNet.html">clearBlockChainExplorerMainNet</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearBlockChainExplorerTestNet" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearBlockChainExplorerTestNet.html">clearBlockChainExplorerTestNet</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearBlockNotifyPort" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearBlockNotifyPort.html">clearBlockNotifyPort</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearBridgeOptionOrdinal" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearBridgeOptionOrdinal.html">clearBridgeOptionOrdinal</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearBsqAverageTrimThreshold" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearBsqAverageTrimThreshold.html">clearBsqAverageTrimThreshold</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearBuyerSecurityDepositAsPercent" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearBuyerSecurityDepositAsPercent.html">clearBuyerSecurityDepositAsPercent</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearBuyerSecurityDepositAsPercentForCrypto" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearBuyerSecurityDepositAsPercentForCrypto.html">clearBuyerSecurityDepositAsPercentForCrypto</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearBuyScreenCryptoCurrencyCode" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearBuyScreenCryptoCurrencyCode.html">clearBuyScreenCryptoCurrencyCode</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearBuyScreenCurrencyCode" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearBuyScreenCurrencyCode.html">clearBuyScreenCurrencyCode</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearClearDataAfterDays" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearClearDataAfterDays.html">clearClearDataAfterDays</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearCssTheme" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearCssTheme.html">clearCssTheme</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearCustomBridges" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearCustomBridges.html">clearCustomBridges</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearDenyApiTaker" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearDenyApiTaker.html">clearDenyApiTaker</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearDirectoryChooserPath" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearDirectoryChooserPath.html">clearDirectoryChooserPath</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearExtension" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/clearExtension.html">clearExtension</a></span><span class="signature">(<wbr><span class="parameter" id="clearExtension-param-extension"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/Extension-class.html">Extension</a></span> <span class="parameter-name">extension</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Clears an extension field and also removes the extension.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="clearField" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/clearField.html">clearField</a></span><span class="signature">(<wbr><span class="parameter" id="clearField-param-tagNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">tagNumber</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Clears the contents of a given field.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="clearHideNonAccountPaymentMethods" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearHideNonAccountPaymentMethods.html">clearHideNonAccountPaymentMethods</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearIgnoreDustThreshold" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearIgnoreDustThreshold.html">clearIgnoreDustThreshold</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearMaxPriceDistanceInPercent" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearMaxPriceDistanceInPercent.html">clearMaxPriceDistanceInPercent</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearMoneroNodes" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearMoneroNodes.html">clearMoneroNodes</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearMoneroNodesOptionOrdinal" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearMoneroNodesOptionOrdinal.html">clearMoneroNodesOptionOrdinal</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearNotifyOnPreRelease" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearNotifyOnPreRelease.html">clearNotifyOnPreRelease</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearOfferBookChartScreenCurrencyCode" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearOfferBookChartScreenCurrencyCode.html">clearOfferBookChartScreenCurrencyCode</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearPhoneKeyAndToken" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearPhoneKeyAndToken.html">clearPhoneKeyAndToken</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearPreferredTradeCurrency" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearPreferredTradeCurrency.html">clearPreferredTradeCurrency</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearReferralId" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearReferralId.html">clearReferralId</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearResyncSpvRequested" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearResyncSpvRequested.html">clearResyncSpvRequested</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearRpcPw" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearRpcPw.html">clearRpcPw</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearRpcUser" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearRpcUser.html">clearRpcUser</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearSelectedPaymentAccountForCreateOffer" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearSelectedPaymentAccountForCreateOffer.html">clearSelectedPaymentAccountForCreateOffer</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearSellScreenCryptoCurrencyCode" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearSellScreenCryptoCurrencyCode.html">clearSellScreenCryptoCurrencyCode</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearSellScreenCurrencyCode" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearSellScreenCurrencyCode.html">clearSellScreenCurrencyCode</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearShowOffersMatchingMyAccounts" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearShowOffersMatchingMyAccounts.html">clearShowOffersMatchingMyAccounts</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearShowOwnOffersInOfferBook" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearShowOwnOffersInOfferBook.html">clearShowOwnOffersInOfferBook</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearSortMarketCurrenciesNumerically" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearSortMarketCurrenciesNumerically.html">clearSortMarketCurrenciesNumerically</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearSplitOfferOutput" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearSplitOfferOutput.html">clearSplitOfferOutput</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearTacAccepted" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearTacAccepted.html">clearTacAccepted</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearTacAcceptedV120" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearTacAcceptedV120.html">clearTacAcceptedV120</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearTakeOfferSelectedPaymentAccountId" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearTakeOfferSelectedPaymentAccountId.html">clearTakeOfferSelectedPaymentAccountId</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearTorTransportOrdinal" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearTorTransportOrdinal.html">clearTorTransportOrdinal</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearTradeChartsScreenCurrencyCode" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearTradeChartsScreenCurrencyCode.html">clearTradeChartsScreenCurrencyCode</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearTradeStatisticsTickUnitIndex" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearTradeStatisticsTickUnitIndex.html">clearTradeStatisticsTickUnitIndex</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearUseAnimations" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearUseAnimations.html">clearUseAnimations</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearUseCustomWithdrawalTxFee" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearUseCustomWithdrawalTxFee.html">clearUseCustomWithdrawalTxFee</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearUseMarketNotifications" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearUseMarketNotifications.html">clearUseMarketNotifications</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearUsePercentageBasedPrice" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearUsePercentageBasedPrice.html">clearUsePercentageBasedPrice</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearUsePriceNotifications" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearUsePriceNotifications.html">clearUsePriceNotifications</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearUserCountry" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearUserCountry.html">clearUserCountry</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearUserLanguage" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearUserLanguage.html">clearUserLanguage</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearUseSoundForMobileNotifications" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearUseSoundForMobileNotifications.html">clearUseSoundForMobileNotifications</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearUseStandbyMode" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearUseStandbyMode.html">clearUseStandbyMode</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearUseTorForXmrOrdinal" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearUseTorForXmrOrdinal.html">clearUseTorForXmrOrdinal</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearUseTradeNotifications" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearUseTradeNotifications.html">clearUseTradeNotifications</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearWithdrawalTxFeeInVbytes" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearWithdrawalTxFeeInVbytes.html">clearWithdrawalTxFeeInVbytes</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearXmrNodeSettings" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/clearXmrNodeSettings.html">clearXmrNodeSettings</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clone" class="callable">
+  <span class="name deprecated"><a class="deprecated" href="../protobuf_models/PreferencesPayload/clone.html">clone</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/PreferencesPayload-class.html">PreferencesPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Creates a deep copy of the fields in this message.
+(The generated code uses <a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/mergeFromMessage.html">mergeFromMessage</a>.)
+  <div class="features"><span class="feature">override</span></div>
+
+</dd>
+
+        <dt id="copyWith" class="callable">
+  <span class="name deprecated"><a class="deprecated" href="../protobuf_models/PreferencesPayload/copyWith.html">copyWith</a></span><span class="signature">(<wbr><span class="parameter" id="copyWith-param-updates"><span class="type-annotation">void</span> <span class="parameter-name">updates</span>(<span class="parameter" id="param-"><span class="type-annotation"><a href="../protobuf_models/PreferencesPayload-class.html">PreferencesPayload</a></span></span>)</span>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/PreferencesPayload-class.html">PreferencesPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Apply <code>updates</code> to a copy of this message.
+  <div class="features"><span class="feature">override</span></div>
+
+</dd>
+
+        <dt id="createEmptyInstance" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/createEmptyInstance.html">createEmptyInstance</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/PreferencesPayload-class.html">PreferencesPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Creates an empty instance of the same message type as this.
+  <div class="features"><span class="feature">override</span></div>
+
+</dd>
+
+        <dt id="createMapField" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/createMapField.html">createMapField</a></span><span class="signature">&lt;<wbr><span class="type-parameter">K</span>, <span class="type-parameter">V</span>&gt;</span><span class="signature">(<wbr><span class="parameter" id="createMapField-param-tagNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">tagNumber</span>, </span><span class="parameter" id="createMapField-param-fi"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/MapFieldInfo-class.html">MapFieldInfo</a><span class="signature">&lt;<wbr><span class="type-parameter">K</span>, <span class="type-parameter">V</span>&gt;</span></span> <span class="parameter-name">fi</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter">K</span>, <span class="type-parameter">V</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Creates a Map representing a map field.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="createRepeatedField" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/createRepeatedField.html">createRepeatedField</a></span><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span><span class="signature">(<wbr><span class="parameter" id="createRepeatedField-param-tagNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">tagNumber</span>, </span><span class="parameter" id="createRepeatedField-param-fi"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/FieldInfo-class.html">FieldInfo</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span> <span class="parameter-name">fi</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Creates List implementing a mutable repeated field.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="ensureBlockChainExplorerMainNet" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/ensureBlockChainExplorerMainNet.html">ensureBlockChainExplorerMainNet</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/BlockChainExplorer-class.html">BlockChainExplorer</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureBlockChainExplorerTestNet" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/ensureBlockChainExplorerTestNet.html">ensureBlockChainExplorerTestNet</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/BlockChainExplorer-class.html">BlockChainExplorer</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensurePreferredTradeCurrency" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/ensurePreferredTradeCurrency.html">ensurePreferredTradeCurrency</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/TradeCurrency-class.html">TradeCurrency</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureSelectedPaymentAccountForCreateOffer" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/ensureSelectedPaymentAccountForCreateOffer.html">ensureSelectedPaymentAccountForCreateOffer</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/PaymentAccount-class.html">PaymentAccount</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureUserCountry" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/ensureUserCountry.html">ensureUserCountry</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/Country-class.html">Country</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureXmrNodeSettings" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/ensureXmrNodeSettings.html">ensureXmrNodeSettings</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/XmrNodeSettings-class.html">XmrNodeSettings</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="extensionsAreInitialized" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/extensionsAreInitialized.html">extensionsAreInitialized</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="freeze" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/freeze.html">freeze</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage-class.html">GeneratedMessage</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Make this message read-only.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="getDefaultForField" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/getDefaultForField.html">getDefaultForField</a></span><span class="signature">(<wbr><span class="parameter" id="getDefaultForField-param-tagNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">tagNumber</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns the default value for the given field.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="getExtension" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/getExtension.html">getExtension</a></span><span class="signature">(<wbr><span class="parameter" id="getExtension-param-extension"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/Extension-class.html">Extension</a></span> <span class="parameter-name">extension</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns the value of <code>extension</code>.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="getField" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/getField.html">getField</a></span><span class="signature">(<wbr><span class="parameter" id="getField-param-tagNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">tagNumber</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns the value of the field associated with <code>tagNumber</code>, or the
+default value if it is not set.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="getFieldOrNull" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/getFieldOrNull.html">getFieldOrNull</a></span><span class="signature">(<wbr><span class="parameter" id="getFieldOrNull-param-tagNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">tagNumber</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns the value of a field, ignoring any defaults.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="getTagNumber" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/getTagNumber.html">getTagNumber</a></span><span class="signature">(<wbr><span class="parameter" id="getTagNumber-param-fieldName"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">fieldName</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="hasAutoSelectArbitrators" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasAutoSelectArbitrators.html">hasAutoSelectArbitrators</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasBackupDirectory" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasBackupDirectory.html">hasBackupDirectory</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasBlockChainExplorerMainNet" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasBlockChainExplorerMainNet.html">hasBlockChainExplorerMainNet</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasBlockChainExplorerTestNet" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasBlockChainExplorerTestNet.html">hasBlockChainExplorerTestNet</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasBlockNotifyPort" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasBlockNotifyPort.html">hasBlockNotifyPort</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasBridgeOptionOrdinal" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasBridgeOptionOrdinal.html">hasBridgeOptionOrdinal</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasBsqAverageTrimThreshold" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasBsqAverageTrimThreshold.html">hasBsqAverageTrimThreshold</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasBuyerSecurityDepositAsPercent" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasBuyerSecurityDepositAsPercent.html">hasBuyerSecurityDepositAsPercent</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasBuyerSecurityDepositAsPercentForCrypto" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasBuyerSecurityDepositAsPercentForCrypto.html">hasBuyerSecurityDepositAsPercentForCrypto</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasBuyScreenCryptoCurrencyCode" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasBuyScreenCryptoCurrencyCode.html">hasBuyScreenCryptoCurrencyCode</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasBuyScreenCurrencyCode" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasBuyScreenCurrencyCode.html">hasBuyScreenCurrencyCode</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasClearDataAfterDays" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasClearDataAfterDays.html">hasClearDataAfterDays</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasCssTheme" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasCssTheme.html">hasCssTheme</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasCustomBridges" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasCustomBridges.html">hasCustomBridges</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasDenyApiTaker" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasDenyApiTaker.html">hasDenyApiTaker</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasDirectoryChooserPath" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasDirectoryChooserPath.html">hasDirectoryChooserPath</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasExtension" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/hasExtension.html">hasExtension</a></span><span class="signature">(<wbr><span class="parameter" id="hasExtension-param-extension"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/Extension-class.html">Extension</a></span> <span class="parameter-name">extension</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns <code>true</code> if a value of <code>extension</code> is present.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="hasField" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/hasField.html">hasField</a></span><span class="signature">(<wbr><span class="parameter" id="hasField-param-tagNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">tagNumber</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Whether this message has a field associated with <code>tagNumber</code>.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="hasHideNonAccountPaymentMethods" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasHideNonAccountPaymentMethods.html">hasHideNonAccountPaymentMethods</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasIgnoreDustThreshold" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasIgnoreDustThreshold.html">hasIgnoreDustThreshold</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasMaxPriceDistanceInPercent" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasMaxPriceDistanceInPercent.html">hasMaxPriceDistanceInPercent</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasMoneroNodes" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasMoneroNodes.html">hasMoneroNodes</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasMoneroNodesOptionOrdinal" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasMoneroNodesOptionOrdinal.html">hasMoneroNodesOptionOrdinal</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasNotifyOnPreRelease" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasNotifyOnPreRelease.html">hasNotifyOnPreRelease</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasOfferBookChartScreenCurrencyCode" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasOfferBookChartScreenCurrencyCode.html">hasOfferBookChartScreenCurrencyCode</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasPhoneKeyAndToken" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasPhoneKeyAndToken.html">hasPhoneKeyAndToken</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasPreferredTradeCurrency" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasPreferredTradeCurrency.html">hasPreferredTradeCurrency</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasReferralId" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasReferralId.html">hasReferralId</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasRequiredFields" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/hasRequiredFields.html">hasRequiredFields</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Whether the message has required fields.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="hasResyncSpvRequested" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasResyncSpvRequested.html">hasResyncSpvRequested</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasRpcPw" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasRpcPw.html">hasRpcPw</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasRpcUser" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasRpcUser.html">hasRpcUser</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasSelectedPaymentAccountForCreateOffer" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasSelectedPaymentAccountForCreateOffer.html">hasSelectedPaymentAccountForCreateOffer</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasSellScreenCryptoCurrencyCode" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasSellScreenCryptoCurrencyCode.html">hasSellScreenCryptoCurrencyCode</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasSellScreenCurrencyCode" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasSellScreenCurrencyCode.html">hasSellScreenCurrencyCode</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasShowOffersMatchingMyAccounts" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasShowOffersMatchingMyAccounts.html">hasShowOffersMatchingMyAccounts</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasShowOwnOffersInOfferBook" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasShowOwnOffersInOfferBook.html">hasShowOwnOffersInOfferBook</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasSortMarketCurrenciesNumerically" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasSortMarketCurrenciesNumerically.html">hasSortMarketCurrenciesNumerically</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasSplitOfferOutput" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasSplitOfferOutput.html">hasSplitOfferOutput</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasTacAccepted" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasTacAccepted.html">hasTacAccepted</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasTacAcceptedV120" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasTacAcceptedV120.html">hasTacAcceptedV120</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasTakeOfferSelectedPaymentAccountId" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasTakeOfferSelectedPaymentAccountId.html">hasTakeOfferSelectedPaymentAccountId</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasTorTransportOrdinal" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasTorTransportOrdinal.html">hasTorTransportOrdinal</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasTradeChartsScreenCurrencyCode" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasTradeChartsScreenCurrencyCode.html">hasTradeChartsScreenCurrencyCode</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasTradeStatisticsTickUnitIndex" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasTradeStatisticsTickUnitIndex.html">hasTradeStatisticsTickUnitIndex</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasUseAnimations" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasUseAnimations.html">hasUseAnimations</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasUseCustomWithdrawalTxFee" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasUseCustomWithdrawalTxFee.html">hasUseCustomWithdrawalTxFee</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasUseMarketNotifications" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasUseMarketNotifications.html">hasUseMarketNotifications</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasUsePercentageBasedPrice" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasUsePercentageBasedPrice.html">hasUsePercentageBasedPrice</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasUsePriceNotifications" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasUsePriceNotifications.html">hasUsePriceNotifications</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasUserCountry" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasUserCountry.html">hasUserCountry</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasUserLanguage" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasUserLanguage.html">hasUserLanguage</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasUseSoundForMobileNotifications" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasUseSoundForMobileNotifications.html">hasUseSoundForMobileNotifications</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasUseStandbyMode" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasUseStandbyMode.html">hasUseStandbyMode</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasUseTorForXmrOrdinal" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasUseTorForXmrOrdinal.html">hasUseTorForXmrOrdinal</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasUseTradeNotifications" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasUseTradeNotifications.html">hasUseTradeNotifications</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasWithdrawalTxFeeInVbytes" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasWithdrawalTxFeeInVbytes.html">hasWithdrawalTxFeeInVbytes</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasXmrNodeSettings" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/hasXmrNodeSettings.html">hasXmrNodeSettings</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="isInitialized" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/isInitialized.html">isInitialized</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Whether all required fields in the message and embedded messages are set.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="mergeFromBuffer" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/mergeFromBuffer.html">mergeFromBuffer</a></span><span class="signature">(<wbr><span class="parameter" id="mergeFromBuffer-param-input"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>&gt;</span></span> <span class="parameter-name">input</span>, </span><span class="parameter" id="mergeFromBuffer-param-extensionRegistry">[<span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/ExtensionRegistry-class.html">ExtensionRegistry</a></span> <span class="parameter-name">extensionRegistry</span> = <span class="default-value">ExtensionRegistry.EMPTY</span>]</span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Merges serialized protocol buffer data into this message.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="mergeFromCodedBufferReader" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/mergeFromCodedBufferReader.html">mergeFromCodedBufferReader</a></span><span class="signature">(<wbr><span class="parameter" id="mergeFromCodedBufferReader-param-input"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/CodedBufferReader-class.html">CodedBufferReader</a></span> <span class="parameter-name">input</span>, </span><span class="parameter" id="mergeFromCodedBufferReader-param-extensionRegistry">[<span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/ExtensionRegistry-class.html">ExtensionRegistry</a></span> <span class="parameter-name">extensionRegistry</span> = <span class="default-value">ExtensionRegistry.EMPTY</span>]</span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="mergeFromJson" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/mergeFromJson.html">mergeFromJson</a></span><span class="signature">(<wbr><span class="parameter" id="mergeFromJson-param-data"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">data</span>, </span><span class="parameter" id="mergeFromJson-param-extensionRegistry">[<span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/ExtensionRegistry-class.html">ExtensionRegistry</a></span> <span class="parameter-name">extensionRegistry</span> = <span class="default-value">ExtensionRegistry.EMPTY</span>]</span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Merges field values from <code>data</code>, a JSON object, encoded as described by
+<a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/writeToJson.html">GeneratedMessage.writeToJson</a>.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="mergeFromJsonMap" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/mergeFromJsonMap.html">mergeFromJsonMap</a></span><span class="signature">(<wbr><span class="parameter" id="mergeFromJsonMap-param-json"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span> <span class="parameter-name">json</span>, </span><span class="parameter" id="mergeFromJsonMap-param-extensionRegistry">[<span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/ExtensionRegistry-class.html">ExtensionRegistry</a></span> <span class="parameter-name">extensionRegistry</span> = <span class="default-value">ExtensionRegistry.EMPTY</span>]</span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Merges field values from a JSON object represented as a Dart map.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="mergeFromMessage" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/mergeFromMessage.html">mergeFromMessage</a></span><span class="signature">(<wbr><span class="parameter" id="mergeFromMessage-param-other"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage-class.html">GeneratedMessage</a></span> <span class="parameter-name">other</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Merges the contents of the <code>other</code> into this message.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="mergeFromProto3Json" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/mergeFromProto3Json.html">mergeFromProto3Json</a></span><span class="signature">(<wbr><span class="parameter" id="mergeFromProto3Json-param-json"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a>?</span> <span class="parameter-name">json</span>, </span><span class="parameter" id="mergeFromProto3Json-param-typeRegistry">{<span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/TypeRegistry-class.html">TypeRegistry</a></span> <span class="parameter-name">typeRegistry</span> = <span class="default-value">const TypeRegistry.empty()</span>, </span><span class="parameter" id="mergeFromProto3Json-param-ignoreUnknownFields"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">ignoreUnknownFields</span> = <span class="default-value">false</span>, </span><span class="parameter" id="mergeFromProto3Json-param-supportNamesWithUnderscores"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">supportNamesWithUnderscores</span> = <span class="default-value">true</span>, </span><span class="parameter" id="mergeFromProto3Json-param-permissiveEnums"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">permissiveEnums</span> = <span class="default-value">false</span>}</span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Merges field values from <code>json</code>, a JSON object using proto3 encoding.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="mergeUnknownFields" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/mergeUnknownFields.html">mergeUnknownFields</a></span><span class="signature">(<wbr><span class="parameter" id="mergeUnknownFields-param-unknownFieldSet"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/UnknownFieldSet-class.html">UnknownFieldSet</a></span> <span class="parameter-name">unknownFieldSet</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="noSuchMethod" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Invoked when a nonexistent method or property is accessed.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="setExtension" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/setExtension.html">setExtension</a></span><span class="signature">(<wbr><span class="parameter" id="setExtension-param-extension"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/Extension-class.html">Extension</a></span> <span class="parameter-name">extension</span>, </span><span class="parameter" id="setExtension-param-value"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">value</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Sets the value of a non-repeated extension field to <code>value</code>.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="setField" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/setField.html">setField</a></span><span class="signature">(<wbr><span class="parameter" id="setField-param-tagNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">tagNumber</span>, </span><span class="parameter" id="setField-param-value"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">value</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Sets the value of a field by its <code>tagNumber</code>.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toBuilder" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/toBuilder.html">toBuilder</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage-class.html">GeneratedMessage</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Creates a writable, shallow copy of this message.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toDebugString" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/toDebugString.html">toDebugString</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns a String representation of this message.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toProto3Json" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/toProto3Json.html">toProto3Json</a></span><span class="signature">(<wbr><span class="parameter" id="toProto3Json-param-typeRegistry">{<span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/TypeRegistry-class.html">TypeRegistry</a></span> <span class="parameter-name">typeRegistry</span> = <span class="default-value">const TypeRegistry.empty()</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a>?</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns an Object representing Proto3 JSON serialization of <code>this</code>.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toString" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/toString.html">toString</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns a String representation of this message.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="writeToBuffer" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/writeToBuffer.html">writeToBuffer</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-typed_data/Uint8List-class.html">Uint8List</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="writeToCodedBufferWriter" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/writeToCodedBufferWriter.html">writeToCodedBufferWriter</a></span><span class="signature">(<wbr><span class="parameter" id="writeToCodedBufferWriter-param-output"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/CodedBufferWriter-class.html">CodedBufferWriter</a></span> <span class="parameter-name">output</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="writeToJson" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/writeToJson.html">writeToJson</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns a JSON string that encodes this message.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="writeToJsonMap" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/writeToJsonMap.html">writeToJsonMap</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns the JSON encoding of this message as a Dart <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a>.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+  <section
+      class="summary offset-anchor inherited"
+      id="operators">
+    <h2>Operators</h2>
+    <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  The equality operator.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+    
+  <section class="summary offset-anchor" id="static-methods">
+    <h2>Static Methods</h2>
+    <dl class="callables">
+        <dt id="create" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/create.html">create</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/PreferencesPayload-class.html">PreferencesPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="createRepeated" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/createRepeated.html">createRepeated</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/PbList-class.html">PbList</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../protobuf_models/PreferencesPayload-class.html">PreferencesPayload</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="getDefault" class="callable">
+  <span class="name"><a href="../protobuf_models/PreferencesPayload/getDefault.html">getDefault</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/PreferencesPayload-class.html">PreferencesPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+    </dl>
+  </section>
+    
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <!-- The search input and breadcrumbs below are only responsively visible at low resolutions. -->
+<header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+    <li><a href="../index.html">haveno</a></li>
+    <li><a href="../protobuf_models/protobuf_models-library.html">protobuf_models</a></li>
+    <li class="self-crumb">PreferencesPayload class</li>
+</ol>
+
+
+    <h5>protobuf_models library</h5>
+    <div id="dartdoc-sidebar-left-content"></div>
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    haveno
+      3.0.1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/docs.dart.js"></script>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the getTradeStatistics method from the TradeStatisticsService class, for the Dart programming language.">
+  <title>getTradeStatistics method - TradeStatisticsService class - haveno_services library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../../static-assets/styles.css?v1">
+  <link rel="icon" href="../../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../../" data-using-base-href="false" class="light-theme">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../../index.html">haveno</a></li>
+    <li><a href="../../haveno_services/haveno_services-library.html">haveno_service.dart</a></li>
+    <li><a href="../../haveno_services/TradeStatisticsService-class.html">TradeStatisticsService</a></li>
+    <li class="self-crumb">getTradeStatistics method</li>
+  </ol>
+  <div class="self-name">getTradeStatistics</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <div class="toggle" id="theme-button" title="Toggle brightness">
+    <label for="theme">
+      <input type="checkbox" id="theme" value="light-theme">
+      <span id="dark-theme-button" class="material-symbols-outlined">
+        dark_mode
+      </span>
+      <span id="light-theme-button" class="material-symbols-outlined">
+        light_mode
+      </span>
+    </label>
+  </div>
+</header>
+<main>
+
+<div
+    id="dartdoc-main-content"
+    class="main-content"
+    data-above-sidebar="haveno_services&#47;TradeStatisticsService-class-sidebar.html"
+    data-below-sidebar="">
+    <div>
+<h1><span class="kind-method">getTradeStatistics</span> method 
+</h1></div>
+
+    <section class="multi-line-signature">
+      
+
+<span class="returntype"><a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../../protobuf_models/TradeStatistics3-class.html">TradeStatistics3</a></span>&gt;</span>?</span>&gt;</span></span>
+<span class="name ">getTradeStatistics</span>(<wbr>)
+
+      
+
+    </section>
+    
+<section class="desc markdown">
+  <p>Retrieves trade statistics from the Haveno gRPC server.</p>
+<p>This method sends a <a href="../../gprc_models/GetTradeStatisticsRequest-class.html">GetTradeStatisticsRequest</a> to the Haveno server and expects
+a <a href="../../gprc_models/GetTradeStatisticsReply-class.html">GetTradeStatisticsReply</a> in response, containing a list of <a href="../../protobuf_models/TradeStatistics3-class.html">TradeStatistics3</a>.
+If the client is not connected to the gRPC server, a <a href="../../haveno_exceptions/DaemonNotConnectedException-class.html">DaemonNotConnectedException</a>
+is thrown.</p>
+<p>Example:</p>
+<pre class="language-dart"><code class="language-dart">try {
+  final tradeStats = await tradeClient.getTradeStatistics();
+  if (tradeStats != null) {
+    for (final stat in tradeStats) {
+      print('Total Trades: ${stat.totalTrades}');
+    }
+  }
+} catch (e) {
+  print('Error fetching trade statistics: $e');
+}
+</code></pre>
+<p>Returns:</p>
+<ul>
+<li>A <code>Future</code> that resolves to a <code>List&lt;TradeStatistics3&gt;?</code> containing the trade statistics,
+or an empty list <code>[]</code> if no statistics are found or an error occurs.</li>
+</ul>
+<p>Throws:</p>
+<ul>
+<li><a href="../../haveno_exceptions/DaemonNotConnectedException-class.html">DaemonNotConnectedException</a> if the Haveno client is not connected to the server.</li>
+<li>Catches <a href="https://pub.dev/documentation/grpc/4.0.1/grpc/GrpcError-class.html">GrpcError</a> to handle any gRPC-specific errors.</li>
+</ul>
+</section>
+
+
+    
+<section class="summary source-code" id="source">
+  <h2><span>Implementation</span></h2>
+  <pre class="language-dart"><code class="language-dart">Future&lt;List&lt;TradeStatistics3&gt;?&gt; getTradeStatistics() async {
+  &#47;&#47; Ensure the Haveno client is connected.
+  if (!havenoChannel.isConnected) {
+    throw DaemonNotConnectedException();
+  }
+
+  try {
+    &#47;&#47; Get the trade statistics client from Haveno.
+    GetTradeStatisticsClient? tradeStatisticsClient =
+        havenoChannel.tradeStatisticsClient;
+
+    &#47;&#47; Request trade statistics from the server.
+    GetTradeStatisticsReply? tradeStatisticsReply =
+        await tradeStatisticsClient
+            ?.getTradeStatistics(GetTradeStatisticsRequest());
+
+    &#47;&#47; Return the list of trade statistics from the response.
+    return tradeStatisticsReply!.tradeStatistics;
+  } on GrpcError catch (e) {
+    &#47;&#47; Handle gRPC errors using the GrpcErrorHandler mixin.
+    handleGrpcError(e);
+  }
+
+  &#47;&#47; Return an empty list if an error occurs.
+  return [];
+}</code></pre>
+</section>
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <!-- The search input and breadcrumbs below are only responsively visible at low resolutions. -->
+<header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+    <li><a href="../../index.html">haveno</a></li>
+    <li><a href="../../haveno_services/haveno_services-library.html">haveno_services</a></li>
+    <li><a href="../../haveno_services/TradeStatisticsService-class.html">TradeStatisticsService</a></li>
+    <li class="self-crumb">getTradeStatistics method</li>
+</ol>
+
+
+    <h5>TradeStatisticsService class</h5>
+    <div id="dartdoc-sidebar-left-content"></div>
+  </div><!--/.sidebar-offcanvas-->
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+</div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    haveno
+      3.0.1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../../static-assets/highlight.pack.js?v1"></script>
+<script src="../../static-assets/docs.dart.js"></script>
+
+
+
+</body>
+
+</html>
+

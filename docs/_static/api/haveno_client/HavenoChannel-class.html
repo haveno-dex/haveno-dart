@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the HavenoChannel class from the haveno_client library, for the Dart programming language.">
+  <title>HavenoChannel class - haveno_client library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../" data-using-base-href="false" class="light-theme">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">haveno</a></li>
+    <li><a href="../haveno_client/haveno_client-library.html">haveno_client.dart</a></li>
+    <li class="self-crumb">HavenoChannel class</li>
+  </ol>
+  <div class="self-name">HavenoChannel</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <div class="toggle" id="theme-button" title="Toggle brightness">
+    <label for="theme">
+      <input type="checkbox" id="theme" value="light-theme">
+      <span id="dark-theme-button" class="material-symbols-outlined">
+        dark_mode
+      </span>
+      <span id="light-theme-button" class="material-symbols-outlined">
+        light_mode
+      </span>
+    </label>
+  </div>
+</header>
+<main>
+
+<div
+    id="dartdoc-main-content"
+    class="main-content"
+    data-above-sidebar="haveno_client&#47;haveno_client-library-sidebar.html"
+    data-below-sidebar="haveno_client&#47;HavenoChannel-class-sidebar.html">
+    <div>
+<h1><span class="kind-class">HavenoChannel</span> class 
+ 
+</h1></div>
+
+    
+<section class="desc markdown">
+  <p>A singleton class to manage gRPC connections and client instances
+for interacting with the Haveno daemon.</p>
+</section>
+
+
+
+    
+  <section class="summary offset-anchor" id="constructors">
+    <h2>Constructors</h2>
+
+    <dl class="constructor-summary-list">
+        <dt id="HavenoChannel" class="callable">
+          <span class="name"><a href="../haveno_client/HavenoChannel/HavenoChannel.html">HavenoChannel</a></span><span class="signature">()</span>
+        </dt>
+        <dd>
+          Factory constructor to provide a singleton instance of HavenoChannel.
+            <div class="constructor-modifier features">factory</div>
+        </dd>
+    </dl>
+  </section>
+    
+  <section
+      class="summary offset-anchor"
+      id="instance-properties">
+    <h2>Properties</h2>
+    <dl class="properties">
+        <dt id="accountClient" class="property">
+  <span class="name"><a href="../haveno_client/HavenoChannel/accountClient.html">accountClient</a></span>
+  <span class="signature">&#8596; AccountClient?</span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="disputeAgentsClient" class="property">
+  <span class="name"><a href="../haveno_client/HavenoChannel/disputeAgentsClient.html">disputeAgentsClient</a></span>
+  <span class="signature">&#8596; DisputeAgentsClient?</span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="disputesClient" class="property">
+  <span class="name"><a href="../haveno_client/HavenoChannel/disputesClient.html">disputesClient</a></span>
+  <span class="signature">&#8596; DisputesClient?</span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="hashCode" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
+  
+
+</dt>
+<dd class="inherited">
+  The hash code for this object.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="helpClient" class="property">
+  <span class="name"><a href="../haveno_client/HavenoChannel/helpClient.html">helpClient</a></span>
+  <span class="signature">&#8596; HelpClient?</span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="isConnected" class="property">
+  <span class="name"><a href="../haveno_client/HavenoChannel/isConnected.html">isConnected</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd>
+  Getter to check if the channel is currently connected.
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="notificationsClient" class="property">
+  <span class="name"><a href="../haveno_client/HavenoChannel/notificationsClient.html">notificationsClient</a></span>
+  <span class="signature">&#8596; NotificationsClient?</span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="offersClient" class="property">
+  <span class="name"><a href="../haveno_client/HavenoChannel/offersClient.html">offersClient</a></span>
+  <span class="signature">&#8596; OffersClient?</span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="onConnected" class="property">
+  <span class="name"><a href="../haveno_client/HavenoChannel/onConnected.html">onConnected</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  
+
+</dt>
+<dd>
+  A future that completes when the connection is established.
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="paymentAccountsClient" class="property">
+  <span class="name"><a href="../haveno_client/HavenoChannel/paymentAccountsClient.html">paymentAccountsClient</a></span>
+  <span class="signature">&#8596; PaymentAccountsClient?</span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="priceClient" class="property">
+  <span class="name"><a href="../haveno_client/HavenoChannel/priceClient.html">priceClient</a></span>
+  <span class="signature">&#8596; PriceClient?</span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="runtimeType" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Type-class.html">Type</a></span>
+  
+
+</dt>
+<dd class="inherited">
+  A representation of the runtime type of the object.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="shutdownServerClient" class="property">
+  <span class="name"><a href="../haveno_client/HavenoChannel/shutdownServerClient.html">shutdownServerClient</a></span>
+  <span class="signature">&#8596; ShutdownServerClient?</span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="tradesClient" class="property">
+  <span class="name"><a href="../haveno_client/HavenoChannel/tradesClient.html">tradesClient</a></span>
+  <span class="signature">&#8596; TradesClient?</span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="tradeStatisticsClient" class="property">
+  <span class="name"><a href="../haveno_client/HavenoChannel/tradeStatisticsClient.html">tradeStatisticsClient</a></span>
+  <span class="signature">&#8596; GetTradeStatisticsClient?</span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="versionClient" class="property">
+  <span class="name"><a href="../haveno_client/HavenoChannel/versionClient.html">versionClient</a></span>
+  <span class="signature">&#8596; GetVersionClient?</span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="walletsClient" class="property">
+  <span class="name"><a href="../haveno_client/HavenoChannel/walletsClient.html">walletsClient</a></span>
+  <span class="signature">&#8596; WalletsClient?</span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="xmrConnectionsClient" class="property">
+  <span class="name"><a href="../haveno_client/HavenoChannel/xmrConnectionsClient.html">xmrConnectionsClient</a></span>
+  <span class="signature">&#8596; XmrConnectionsClient?</span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="xmrNodeClient" class="property">
+  <span class="name"><a href="../haveno_client/HavenoChannel/xmrNodeClient.html">xmrNodeClient</a></span>
+  <span class="signature">&#8596; XmrNodeClient?</span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+  <section
+      class="summary offset-anchor"
+      id="instance-methods">
+    <h2>Methods</h2>
+    <dl class="callables">
+        <dt id="connect" class="callable">
+  <span class="name"><a href="../haveno_client/HavenoChannel/connect.html">connect</a></span><span class="signature">(<wbr><span class="parameter" id="connect-param-host"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">host</span>, </span><span class="parameter" id="connect-param-port"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">port</span>, </span><span class="parameter" id="connect-param-password"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">password</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Asynchronous method to connect to the Haveno daemon.
+  
+
+</dd>
+
+        <dt id="disconnect" class="callable">
+  <span class="name"><a href="../haveno_client/HavenoChannel/disconnect.html">disconnect</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Gracefully disconnects from the Haveno daemon by shutting down the channel.
+  
+
+</dd>
+
+        <dt id="noSuchMethod" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Invoked when a nonexistent method or property is accessed.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="shutdown" class="callable">
+  <span class="name"><a href="../haveno_client/HavenoChannel/shutdown.html">shutdown</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Disconnects from the Haveno daemon and shuts down the gRPC channel.
+  
+
+</dd>
+
+        <dt id="toString" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  A string representation of this object.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+  <section
+      class="summary offset-anchor inherited"
+      id="operators">
+    <h2>Operators</h2>
+    <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  The equality operator.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+    
+    
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <!-- The search input and breadcrumbs below are only responsively visible at low resolutions. -->
+<header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+    <li><a href="../index.html">haveno</a></li>
+    <li><a href="../haveno_client/haveno_client-library.html">haveno_client</a></li>
+    <li class="self-crumb">HavenoChannel class</li>
+</ol>
+
+
+    <h5>haveno_client library</h5>
+    <div id="dartdoc-sidebar-left-content"></div>
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    haveno
+      3.0.1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/docs.dart.js"></script>
+
+
+
+</body>
+
+</html>
+

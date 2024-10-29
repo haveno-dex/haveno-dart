@@ -1,0 +1,1778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the CountryBasedPaymentAccountPayload class from the protobuf_models library, for the Dart programming language.">
+  <title>CountryBasedPaymentAccountPayload class - protobuf_models library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../" data-using-base-href="false" class="light-theme">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">haveno</a></li>
+    <li><a href="../protobuf_models/protobuf_models-library.html">profobuf_models.dart</a></li>
+    <li class="self-crumb">CountryBasedPaymentAccountPayload class</li>
+  </ol>
+  <div class="self-name">CountryBasedPaymentAccountPayload</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <div class="toggle" id="theme-button" title="Toggle brightness">
+    <label for="theme">
+      <input type="checkbox" id="theme" value="light-theme">
+      <span id="dark-theme-button" class="material-symbols-outlined">
+        dark_mode
+      </span>
+      <span id="light-theme-button" class="material-symbols-outlined">
+        light_mode
+      </span>
+    </label>
+  </div>
+</header>
+<main>
+
+<div
+    id="dartdoc-main-content"
+    class="main-content"
+    data-above-sidebar="protobuf_models&#47;protobuf_models-library-sidebar.html"
+    data-below-sidebar="protobuf_models&#47;CountryBasedPaymentAccountPayload-class-sidebar.html">
+    <div>
+<h1><span class="kind-class">CountryBasedPaymentAccountPayload</span> class 
+ 
+</h1></div>
+
+    
+
+
+    <section>
+      <dl class="dl-horizontal">
+        
+  <dt>Inheritance</dt>
+  <dd>
+    <ul class="gt-separated dark clazz-relationships">
+      <li><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></li>
+        <li><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage-class.html">GeneratedMessage</a></li>
+      <li>CountryBasedPaymentAccountPayload</li>
+    </ul>
+  </dd>
+
+        
+        
+
+
+          <dt>Available Extensions</dt>
+          <dd><ul class="comma-separated clazz-relationships">
+              <li><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessageGenericExtensions.html">GeneratedMessageGenericExtensions</a></li>
+          </ul></dd>
+
+        
+
+
+      </dl>
+    </section>
+
+    
+  <section class="summary offset-anchor" id="constructors">
+    <h2>Constructors</h2>
+
+    <dl class="constructor-summary-list">
+        <dt id="CountryBasedPaymentAccountPayload" class="callable">
+          <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/CountryBasedPaymentAccountPayload.html">CountryBasedPaymentAccountPayload</a></span><span class="signature">(<span class="parameter" id="-param-countryCode">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">countryCode</span>, </span><span class="parameter" id="-param-acceptedCountryCodes"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Iterable-class.html">Iterable</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>&gt;</span>?</span> <span class="parameter-name">acceptedCountryCodes</span>, </span><span class="parameter" id="-param-bankAccountPayload"><span class="type-annotation"><a href="../protobuf_models/BankAccountPayload-class.html">BankAccountPayload</a>?</span> <span class="parameter-name">bankAccountPayload</span>, </span><span class="parameter" id="-param-cashDepositAccountPayload"><span class="type-annotation"><a href="../protobuf_models/CashDepositAccountPayload-class.html">CashDepositAccountPayload</a>?</span> <span class="parameter-name">cashDepositAccountPayload</span>, </span><span class="parameter" id="-param-sepaAccountPayload"><span class="type-annotation"><a href="../protobuf_models/SepaAccountPayload-class.html">SepaAccountPayload</a>?</span> <span class="parameter-name">sepaAccountPayload</span>, </span><span class="parameter" id="-param-westernUnionAccountPayload"><span class="type-annotation"><a href="../protobuf_models/WesternUnionAccountPayload-class.html">WesternUnionAccountPayload</a>?</span> <span class="parameter-name">westernUnionAccountPayload</span>, </span><span class="parameter" id="-param-sepaInstantAccountPayload"><span class="type-annotation"><a href="../protobuf_models/SepaInstantAccountPayload-class.html">SepaInstantAccountPayload</a>?</span> <span class="parameter-name">sepaInstantAccountPayload</span>, </span><span class="parameter" id="-param-f2fAccountPayload"><span class="type-annotation"><a href="../protobuf_models/F2FAccountPayload-class.html">F2FAccountPayload</a>?</span> <span class="parameter-name">f2fAccountPayload</span>, </span><span class="parameter" id="-param-upiAccountPayload"><span class="type-annotation"><a href="../protobuf_models/UpiAccountPayload-class.html">UpiAccountPayload</a>?</span> <span class="parameter-name">upiAccountPayload</span>, </span><span class="parameter" id="-param-paytmAccountPayload"><span class="type-annotation"><a href="../protobuf_models/PaytmAccountPayload-class.html">PaytmAccountPayload</a>?</span> <span class="parameter-name">paytmAccountPayload</span>, </span><span class="parameter" id="-param-ifscBasedAccountPayload"><span class="type-annotation"><a href="../protobuf_models/IfscBasedAccountPayload-class.html">IfscBasedAccountPayload</a>?</span> <span class="parameter-name">ifscBasedAccountPayload</span>, </span><span class="parameter" id="-param-nequiAccountPayload"><span class="type-annotation"><a href="../protobuf_models/NequiAccountPayload-class.html">NequiAccountPayload</a>?</span> <span class="parameter-name">nequiAccountPayload</span>, </span><span class="parameter" id="-param-bizumAccountPayload"><span class="type-annotation"><a href="../protobuf_models/BizumAccountPayload-class.html">BizumAccountPayload</a>?</span> <span class="parameter-name">bizumAccountPayload</span>, </span><span class="parameter" id="-param-pixAccountPayload"><span class="type-annotation"><a href="../protobuf_models/PixAccountPayload-class.html">PixAccountPayload</a>?</span> <span class="parameter-name">pixAccountPayload</span>, </span><span class="parameter" id="-param-satispayAccountPayload"><span class="type-annotation"><a href="../protobuf_models/SatispayAccountPayload-class.html">SatispayAccountPayload</a>?</span> <span class="parameter-name">satispayAccountPayload</span>, </span><span class="parameter" id="-param-strikeAccountPayload"><span class="type-annotation"><a href="../protobuf_models/StrikeAccountPayload-class.html">StrikeAccountPayload</a>?</span> <span class="parameter-name">strikeAccountPayload</span>, </span><span class="parameter" id="-param-tikkieAccountPayload"><span class="type-annotation"><a href="../protobuf_models/TikkieAccountPayload-class.html">TikkieAccountPayload</a>?</span> <span class="parameter-name">tikkieAccountPayload</span>, </span><span class="parameter" id="-param-transferwiseUsdAccountPayload"><span class="type-annotation"><a href="../protobuf_models/TransferwiseUsdAccountPayload-class.html">TransferwiseUsdAccountPayload</a>?</span> <span class="parameter-name">transferwiseUsdAccountPayload</span>, </span><span class="parameter" id="-param-swiftAccountPayload"><span class="type-annotation"><a href="../protobuf_models/SwiftAccountPayload-class.html">SwiftAccountPayload</a>?</span> <span class="parameter-name">swiftAccountPayload</span>}</span>)</span>
+        </dt>
+        <dd>
+          
+            <div class="constructor-modifier features">factory</div>
+        </dd>
+        <dt id="CountryBasedPaymentAccountPayload.fromBuffer" class="callable">
+          <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/CountryBasedPaymentAccountPayload.fromBuffer.html">CountryBasedPaymentAccountPayload.fromBuffer</a></span><span class="signature">(<span class="parameter" id="fromBuffer-param-i"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>&gt;</span></span> <span class="parameter-name">i</span>, </span><span class="parameter" id="fromBuffer-param-r">[<span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/ExtensionRegistry-class.html">ExtensionRegistry</a></span> <span class="parameter-name">r</span> = <span class="default-value">$pb.ExtensionRegistry.EMPTY</span>]</span>)</span>
+        </dt>
+        <dd>
+          
+            <div class="constructor-modifier features">factory</div>
+        </dd>
+        <dt id="CountryBasedPaymentAccountPayload.fromJson" class="callable">
+          <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/CountryBasedPaymentAccountPayload.fromJson.html">CountryBasedPaymentAccountPayload.fromJson</a></span><span class="signature">(<span class="parameter" id="fromJson-param-i"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">i</span>, </span><span class="parameter" id="fromJson-param-r">[<span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/ExtensionRegistry-class.html">ExtensionRegistry</a></span> <span class="parameter-name">r</span> = <span class="default-value">$pb.ExtensionRegistry.EMPTY</span>]</span>)</span>
+        </dt>
+        <dd>
+          
+            <div class="constructor-modifier features">factory</div>
+        </dd>
+    </dl>
+  </section>
+    
+  <section
+      class="summary offset-anchor"
+      id="instance-properties">
+    <h2>Properties</h2>
+    <dl class="properties">
+        <dt id="acceptedCountryCodes" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/acceptedCountryCodes.html">acceptedCountryCodes</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>&gt;</span></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">no setter</span></div>
+
+</dd>
+
+        <dt id="bankAccountPayload" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/bankAccountPayload.html">bankAccountPayload</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/BankAccountPayload-class.html">BankAccountPayload</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="bizumAccountPayload" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/bizumAccountPayload.html">bizumAccountPayload</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/BizumAccountPayload-class.html">BizumAccountPayload</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="cashDepositAccountPayload" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/cashDepositAccountPayload.html">cashDepositAccountPayload</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/CashDepositAccountPayload-class.html">CashDepositAccountPayload</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="countryCode" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/countryCode.html">countryCode</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="eventPlugin" class="property inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/eventPlugin.html">eventPlugin</a></span>
+  <span class="signature">&#8594; <a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/EventPlugin-class.html">EventPlugin</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  Subclasses can override this getter to be notified of changes
+to protobuf fields.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="f2fAccountPayload" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/f2fAccountPayload.html">f2fAccountPayload</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/F2FAccountPayload-class.html">F2FAccountPayload</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="hashCode" class="property inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/hashCode.html">hashCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
+  
+
+</dt>
+<dd class="inherited">
+  Calculates a hash code based on the contents of the protobuf.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="ifscBasedAccountPayload" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ifscBasedAccountPayload.html">ifscBasedAccountPayload</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/IfscBasedAccountPayload-class.html">IfscBasedAccountPayload</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="info_" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/info_.html">info_</a></span>
+  <span class="signature">&#8594; <a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/BuilderInfo-class.html">BuilderInfo</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">override</span></div>
+
+</dd>
+
+        <dt id="isFrozen" class="property inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/isFrozen.html">isFrozen</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns <code>true</code> if this message is marked read-only. Otherwise <code>false</code>.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="nequiAccountPayload" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/nequiAccountPayload.html">nequiAccountPayload</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/NequiAccountPayload-class.html">NequiAccountPayload</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="paytmAccountPayload" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/paytmAccountPayload.html">paytmAccountPayload</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/PaytmAccountPayload-class.html">PaytmAccountPayload</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="pixAccountPayload" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/pixAccountPayload.html">pixAccountPayload</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/PixAccountPayload-class.html">PixAccountPayload</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="runtimeType" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Type-class.html">Type</a></span>
+  
+
+</dt>
+<dd class="inherited">
+  A representation of the runtime type of the object.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="satispayAccountPayload" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/satispayAccountPayload.html">satispayAccountPayload</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/SatispayAccountPayload-class.html">SatispayAccountPayload</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="sepaAccountPayload" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/sepaAccountPayload.html">sepaAccountPayload</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/SepaAccountPayload-class.html">SepaAccountPayload</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="sepaInstantAccountPayload" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/sepaInstantAccountPayload.html">sepaInstantAccountPayload</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/SepaInstantAccountPayload-class.html">SepaInstantAccountPayload</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="strikeAccountPayload" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/strikeAccountPayload.html">strikeAccountPayload</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/StrikeAccountPayload-class.html">StrikeAccountPayload</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="swiftAccountPayload" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/swiftAccountPayload.html">swiftAccountPayload</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/SwiftAccountPayload-class.html">SwiftAccountPayload</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="tikkieAccountPayload" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/tikkieAccountPayload.html">tikkieAccountPayload</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/TikkieAccountPayload-class.html">TikkieAccountPayload</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="transferwiseUsdAccountPayload" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/transferwiseUsdAccountPayload.html">transferwiseUsdAccountPayload</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/TransferwiseUsdAccountPayload-class.html">TransferwiseUsdAccountPayload</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="unknownFields" class="property inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/unknownFields.html">unknownFields</a></span>
+  <span class="signature">&#8594; <a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/UnknownFieldSet-class.html">UnknownFieldSet</a></span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="upiAccountPayload" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/upiAccountPayload.html">upiAccountPayload</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/UpiAccountPayload-class.html">UpiAccountPayload</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+        <dt id="westernUnionAccountPayload" class="property">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/westernUnionAccountPayload.html">westernUnionAccountPayload</a></span>
+  <span class="signature">&#8596; <a href="../protobuf_models/WesternUnionAccountPayload-class.html">WesternUnionAccountPayload</a></span>
+  
+
+</dt>
+<dd>
+  
+  <div class="features"><span class="feature">getter/setter pair</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+  <section
+      class="summary offset-anchor"
+      id="instance-methods">
+    <h2>Methods</h2>
+    <dl class="callables">
+        <dt id="addExtension" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/addExtension.html">addExtension</a></span><span class="signature">(<wbr><span class="parameter" id="addExtension-param-extension"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/Extension-class.html">Extension</a></span> <span class="parameter-name">extension</span>, </span><span class="parameter" id="addExtension-param-value"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a>?</span> <span class="parameter-name">value</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Adds an extension field value to a repeated field.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="check" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/check.html">check</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="clear" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/clear.html">clear</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Clears all data that was set in this message.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="clearBankAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearBankAccountPayload.html">clearBankAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearBizumAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearBizumAccountPayload.html">clearBizumAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearCashDepositAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearCashDepositAccountPayload.html">clearCashDepositAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearCountryCode" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearCountryCode.html">clearCountryCode</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearExtension" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/clearExtension.html">clearExtension</a></span><span class="signature">(<wbr><span class="parameter" id="clearExtension-param-extension"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/Extension-class.html">Extension</a></span> <span class="parameter-name">extension</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Clears an extension field and also removes the extension.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="clearF2fAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearF2fAccountPayload.html">clearF2fAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearField" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/clearField.html">clearField</a></span><span class="signature">(<wbr><span class="parameter" id="clearField-param-tagNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">tagNumber</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Clears the contents of a given field.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="clearIfscBasedAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearIfscBasedAccountPayload.html">clearIfscBasedAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearMessage" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearMessage.html">clearMessage</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearNequiAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearNequiAccountPayload.html">clearNequiAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearPaytmAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearPaytmAccountPayload.html">clearPaytmAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearPixAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearPixAccountPayload.html">clearPixAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearSatispayAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearSatispayAccountPayload.html">clearSatispayAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearSepaAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearSepaAccountPayload.html">clearSepaAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearSepaInstantAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearSepaInstantAccountPayload.html">clearSepaInstantAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearStrikeAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearStrikeAccountPayload.html">clearStrikeAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearSwiftAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearSwiftAccountPayload.html">clearSwiftAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearTikkieAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearTikkieAccountPayload.html">clearTikkieAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearTransferwiseUsdAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearTransferwiseUsdAccountPayload.html">clearTransferwiseUsdAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearUpiAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearUpiAccountPayload.html">clearUpiAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clearWesternUnionAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/clearWesternUnionAccountPayload.html">clearWesternUnionAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="clone" class="callable">
+  <span class="name deprecated"><a class="deprecated" href="../protobuf_models/CountryBasedPaymentAccountPayload/clone.html">clone</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/CountryBasedPaymentAccountPayload-class.html">CountryBasedPaymentAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Creates a deep copy of the fields in this message.
+(The generated code uses <a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/mergeFromMessage.html">mergeFromMessage</a>.)
+  <div class="features"><span class="feature">override</span></div>
+
+</dd>
+
+        <dt id="copyWith" class="callable">
+  <span class="name deprecated"><a class="deprecated" href="../protobuf_models/CountryBasedPaymentAccountPayload/copyWith.html">copyWith</a></span><span class="signature">(<wbr><span class="parameter" id="copyWith-param-updates"><span class="type-annotation">void</span> <span class="parameter-name">updates</span>(<span class="parameter" id="param-"><span class="type-annotation"><a href="../protobuf_models/CountryBasedPaymentAccountPayload-class.html">CountryBasedPaymentAccountPayload</a></span></span>)</span>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/CountryBasedPaymentAccountPayload-class.html">CountryBasedPaymentAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Apply <code>updates</code> to a copy of this message.
+  <div class="features"><span class="feature">override</span></div>
+
+</dd>
+
+        <dt id="createEmptyInstance" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/createEmptyInstance.html">createEmptyInstance</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/CountryBasedPaymentAccountPayload-class.html">CountryBasedPaymentAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Creates an empty instance of the same message type as this.
+  <div class="features"><span class="feature">override</span></div>
+
+</dd>
+
+        <dt id="createMapField" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/createMapField.html">createMapField</a></span><span class="signature">&lt;<wbr><span class="type-parameter">K</span>, <span class="type-parameter">V</span>&gt;</span><span class="signature">(<wbr><span class="parameter" id="createMapField-param-tagNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">tagNumber</span>, </span><span class="parameter" id="createMapField-param-fi"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/MapFieldInfo-class.html">MapFieldInfo</a><span class="signature">&lt;<wbr><span class="type-parameter">K</span>, <span class="type-parameter">V</span>&gt;</span></span> <span class="parameter-name">fi</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter">K</span>, <span class="type-parameter">V</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Creates a Map representing a map field.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="createRepeatedField" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/createRepeatedField.html">createRepeatedField</a></span><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span><span class="signature">(<wbr><span class="parameter" id="createRepeatedField-param-tagNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">tagNumber</span>, </span><span class="parameter" id="createRepeatedField-param-fi"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/FieldInfo-class.html">FieldInfo</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span> <span class="parameter-name">fi</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Creates List implementing a mutable repeated field.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="ensureBankAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ensureBankAccountPayload.html">ensureBankAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/BankAccountPayload-class.html">BankAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureBizumAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ensureBizumAccountPayload.html">ensureBizumAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/BizumAccountPayload-class.html">BizumAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureCashDepositAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ensureCashDepositAccountPayload.html">ensureCashDepositAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/CashDepositAccountPayload-class.html">CashDepositAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureF2fAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ensureF2fAccountPayload.html">ensureF2fAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/F2FAccountPayload-class.html">F2FAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureIfscBasedAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ensureIfscBasedAccountPayload.html">ensureIfscBasedAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/IfscBasedAccountPayload-class.html">IfscBasedAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureNequiAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ensureNequiAccountPayload.html">ensureNequiAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/NequiAccountPayload-class.html">NequiAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensurePaytmAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ensurePaytmAccountPayload.html">ensurePaytmAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/PaytmAccountPayload-class.html">PaytmAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensurePixAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ensurePixAccountPayload.html">ensurePixAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/PixAccountPayload-class.html">PixAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureSatispayAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ensureSatispayAccountPayload.html">ensureSatispayAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/SatispayAccountPayload-class.html">SatispayAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureSepaAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ensureSepaAccountPayload.html">ensureSepaAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/SepaAccountPayload-class.html">SepaAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureSepaInstantAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ensureSepaInstantAccountPayload.html">ensureSepaInstantAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/SepaInstantAccountPayload-class.html">SepaInstantAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureStrikeAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ensureStrikeAccountPayload.html">ensureStrikeAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/StrikeAccountPayload-class.html">StrikeAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureSwiftAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ensureSwiftAccountPayload.html">ensureSwiftAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/SwiftAccountPayload-class.html">SwiftAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureTikkieAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ensureTikkieAccountPayload.html">ensureTikkieAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/TikkieAccountPayload-class.html">TikkieAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureTransferwiseUsdAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ensureTransferwiseUsdAccountPayload.html">ensureTransferwiseUsdAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/TransferwiseUsdAccountPayload-class.html">TransferwiseUsdAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureUpiAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ensureUpiAccountPayload.html">ensureUpiAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/UpiAccountPayload-class.html">UpiAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="ensureWesternUnionAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/ensureWesternUnionAccountPayload.html">ensureWesternUnionAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/WesternUnionAccountPayload-class.html">WesternUnionAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="extensionsAreInitialized" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/extensionsAreInitialized.html">extensionsAreInitialized</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="freeze" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/freeze.html">freeze</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage-class.html">GeneratedMessage</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Make this message read-only.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="getDefaultForField" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/getDefaultForField.html">getDefaultForField</a></span><span class="signature">(<wbr><span class="parameter" id="getDefaultForField-param-tagNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">tagNumber</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns the default value for the given field.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="getExtension" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/getExtension.html">getExtension</a></span><span class="signature">(<wbr><span class="parameter" id="getExtension-param-extension"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/Extension-class.html">Extension</a></span> <span class="parameter-name">extension</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns the value of <code>extension</code>.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="getField" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/getField.html">getField</a></span><span class="signature">(<wbr><span class="parameter" id="getField-param-tagNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">tagNumber</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns the value of the field associated with <code>tagNumber</code>, or the
+default value if it is not set.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="getFieldOrNull" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/getFieldOrNull.html">getFieldOrNull</a></span><span class="signature">(<wbr><span class="parameter" id="getFieldOrNull-param-tagNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">tagNumber</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns the value of a field, ignoring any defaults.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="getTagNumber" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/getTagNumber.html">getTagNumber</a></span><span class="signature">(<wbr><span class="parameter" id="getTagNumber-param-fieldName"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">fieldName</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="hasBankAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasBankAccountPayload.html">hasBankAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasBizumAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasBizumAccountPayload.html">hasBizumAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasCashDepositAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasCashDepositAccountPayload.html">hasCashDepositAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasCountryCode" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasCountryCode.html">hasCountryCode</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasExtension" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/hasExtension.html">hasExtension</a></span><span class="signature">(<wbr><span class="parameter" id="hasExtension-param-extension"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/Extension-class.html">Extension</a></span> <span class="parameter-name">extension</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns <code>true</code> if a value of <code>extension</code> is present.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="hasF2fAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasF2fAccountPayload.html">hasF2fAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasField" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/hasField.html">hasField</a></span><span class="signature">(<wbr><span class="parameter" id="hasField-param-tagNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">tagNumber</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Whether this message has a field associated with <code>tagNumber</code>.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="hasIfscBasedAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasIfscBasedAccountPayload.html">hasIfscBasedAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasNequiAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasNequiAccountPayload.html">hasNequiAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasPaytmAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasPaytmAccountPayload.html">hasPaytmAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasPixAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasPixAccountPayload.html">hasPixAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasRequiredFields" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/hasRequiredFields.html">hasRequiredFields</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Whether the message has required fields.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="hasSatispayAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasSatispayAccountPayload.html">hasSatispayAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasSepaAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasSepaAccountPayload.html">hasSepaAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasSepaInstantAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasSepaInstantAccountPayload.html">hasSepaInstantAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasStrikeAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasStrikeAccountPayload.html">hasStrikeAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasSwiftAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasSwiftAccountPayload.html">hasSwiftAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasTikkieAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasTikkieAccountPayload.html">hasTikkieAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasTransferwiseUsdAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasTransferwiseUsdAccountPayload.html">hasTransferwiseUsdAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasUpiAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasUpiAccountPayload.html">hasUpiAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="hasWesternUnionAccountPayload" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/hasWesternUnionAccountPayload.html">hasWesternUnionAccountPayload</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="isInitialized" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/isInitialized.html">isInitialized</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Whether all required fields in the message and embedded messages are set.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="mergeFromBuffer" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/mergeFromBuffer.html">mergeFromBuffer</a></span><span class="signature">(<wbr><span class="parameter" id="mergeFromBuffer-param-input"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>&gt;</span></span> <span class="parameter-name">input</span>, </span><span class="parameter" id="mergeFromBuffer-param-extensionRegistry">[<span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/ExtensionRegistry-class.html">ExtensionRegistry</a></span> <span class="parameter-name">extensionRegistry</span> = <span class="default-value">ExtensionRegistry.EMPTY</span>]</span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Merges serialized protocol buffer data into this message.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="mergeFromCodedBufferReader" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/mergeFromCodedBufferReader.html">mergeFromCodedBufferReader</a></span><span class="signature">(<wbr><span class="parameter" id="mergeFromCodedBufferReader-param-input"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/CodedBufferReader-class.html">CodedBufferReader</a></span> <span class="parameter-name">input</span>, </span><span class="parameter" id="mergeFromCodedBufferReader-param-extensionRegistry">[<span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/ExtensionRegistry-class.html">ExtensionRegistry</a></span> <span class="parameter-name">extensionRegistry</span> = <span class="default-value">ExtensionRegistry.EMPTY</span>]</span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="mergeFromJson" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/mergeFromJson.html">mergeFromJson</a></span><span class="signature">(<wbr><span class="parameter" id="mergeFromJson-param-data"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">data</span>, </span><span class="parameter" id="mergeFromJson-param-extensionRegistry">[<span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/ExtensionRegistry-class.html">ExtensionRegistry</a></span> <span class="parameter-name">extensionRegistry</span> = <span class="default-value">ExtensionRegistry.EMPTY</span>]</span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Merges field values from <code>data</code>, a JSON object, encoded as described by
+<a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/writeToJson.html">GeneratedMessage.writeToJson</a>.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="mergeFromJsonMap" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/mergeFromJsonMap.html">mergeFromJsonMap</a></span><span class="signature">(<wbr><span class="parameter" id="mergeFromJsonMap-param-json"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span> <span class="parameter-name">json</span>, </span><span class="parameter" id="mergeFromJsonMap-param-extensionRegistry">[<span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/ExtensionRegistry-class.html">ExtensionRegistry</a></span> <span class="parameter-name">extensionRegistry</span> = <span class="default-value">ExtensionRegistry.EMPTY</span>]</span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Merges field values from a JSON object represented as a Dart map.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="mergeFromMessage" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/mergeFromMessage.html">mergeFromMessage</a></span><span class="signature">(<wbr><span class="parameter" id="mergeFromMessage-param-other"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage-class.html">GeneratedMessage</a></span> <span class="parameter-name">other</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Merges the contents of the <code>other</code> into this message.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="mergeFromProto3Json" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/mergeFromProto3Json.html">mergeFromProto3Json</a></span><span class="signature">(<wbr><span class="parameter" id="mergeFromProto3Json-param-json"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a>?</span> <span class="parameter-name">json</span>, </span><span class="parameter" id="mergeFromProto3Json-param-typeRegistry">{<span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/TypeRegistry-class.html">TypeRegistry</a></span> <span class="parameter-name">typeRegistry</span> = <span class="default-value">const TypeRegistry.empty()</span>, </span><span class="parameter" id="mergeFromProto3Json-param-ignoreUnknownFields"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">ignoreUnknownFields</span> = <span class="default-value">false</span>, </span><span class="parameter" id="mergeFromProto3Json-param-supportNamesWithUnderscores"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">supportNamesWithUnderscores</span> = <span class="default-value">true</span>, </span><span class="parameter" id="mergeFromProto3Json-param-permissiveEnums"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">permissiveEnums</span> = <span class="default-value">false</span>}</span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Merges field values from <code>json</code>, a JSON object using proto3 encoding.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="mergeUnknownFields" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/mergeUnknownFields.html">mergeUnknownFields</a></span><span class="signature">(<wbr><span class="parameter" id="mergeUnknownFields-param-unknownFieldSet"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/UnknownFieldSet-class.html">UnknownFieldSet</a></span> <span class="parameter-name">unknownFieldSet</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="noSuchMethod" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Invoked when a nonexistent method or property is accessed.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="setExtension" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/setExtension.html">setExtension</a></span><span class="signature">(<wbr><span class="parameter" id="setExtension-param-extension"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/Extension-class.html">Extension</a></span> <span class="parameter-name">extension</span>, </span><span class="parameter" id="setExtension-param-value"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">value</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Sets the value of a non-repeated extension field to <code>value</code>.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="setField" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/setField.html">setField</a></span><span class="signature">(<wbr><span class="parameter" id="setField-param-tagNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">tagNumber</span>, </span><span class="parameter" id="setField-param-value"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">value</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Sets the value of a field by its <code>tagNumber</code>.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toBuilder" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/toBuilder.html">toBuilder</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage-class.html">GeneratedMessage</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Creates a writable, shallow copy of this message.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toDebugString" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/toDebugString.html">toDebugString</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns a String representation of this message.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toProto3Json" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/toProto3Json.html">toProto3Json</a></span><span class="signature">(<wbr><span class="parameter" id="toProto3Json-param-typeRegistry">{<span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/TypeRegistry-class.html">TypeRegistry</a></span> <span class="parameter-name">typeRegistry</span> = <span class="default-value">const TypeRegistry.empty()</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a>?</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns an Object representing Proto3 JSON serialization of <code>this</code>.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toString" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/toString.html">toString</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns a String representation of this message.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="whichMessage" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/whichMessage.html">whichMessage</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/CountryBasedPaymentAccountPayload_Message.html">CountryBasedPaymentAccountPayload_Message</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="writeToBuffer" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/writeToBuffer.html">writeToBuffer</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-typed_data/Uint8List-class.html">Uint8List</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="writeToCodedBufferWriter" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/writeToCodedBufferWriter.html">writeToCodedBufferWriter</a></span><span class="signature">(<wbr><span class="parameter" id="writeToCodedBufferWriter-param-output"><span class="type-annotation"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/CodedBufferWriter-class.html">CodedBufferWriter</a></span> <span class="parameter-name">output</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="writeToJson" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/writeToJson.html">writeToJson</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns a JSON string that encodes this message.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="writeToJsonMap" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/writeToJsonMap.html">writeToJsonMap</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Returns the JSON encoding of this message as a Dart <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a>.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+  <section
+      class="summary offset-anchor inherited"
+      id="operators">
+    <h2>Operators</h2>
+    <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/GeneratedMessage/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  The equality operator.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+    
+  <section class="summary offset-anchor" id="static-methods">
+    <h2>Static Methods</h2>
+    <dl class="callables">
+        <dt id="create" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/create.html">create</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/CountryBasedPaymentAccountPayload-class.html">CountryBasedPaymentAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="createRepeated" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/createRepeated.html">createRepeated</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://pub.dev/documentation/protobuf/3.1.0/protobuf/PbList-class.html">PbList</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../protobuf_models/CountryBasedPaymentAccountPayload-class.html">CountryBasedPaymentAccountPayload</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+        <dt id="getDefault" class="callable">
+  <span class="name"><a href="../protobuf_models/CountryBasedPaymentAccountPayload/getDefault.html">getDefault</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="../protobuf_models/CountryBasedPaymentAccountPayload-class.html">CountryBasedPaymentAccountPayload</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
+    </dl>
+  </section>
+    
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <!-- The search input and breadcrumbs below are only responsively visible at low resolutions. -->
+<header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+    <li><a href="../index.html">haveno</a></li>
+    <li><a href="../protobuf_models/protobuf_models-library.html">protobuf_models</a></li>
+    <li class="self-crumb">CountryBasedPaymentAccountPayload class</li>
+</ol>
+
+
+    <h5>protobuf_models library</h5>
+    <div id="dartdoc-sidebar-left-content"></div>
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    haveno
+      3.0.1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/docs.dart.js"></script>
+
+
+
+</body>
+
+</html>
+
